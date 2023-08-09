@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -17,6 +19,9 @@ public class Main {
 
     private static void task2() {
         System.out.println("Задача 2");
+        String fullName = "Ivanov Ivan Ivanovich";
+        System.out.println(fullName.toUpperCase());
+        System.out.println();
     }
 
     private static void task3() {
